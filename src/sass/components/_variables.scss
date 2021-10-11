@@ -1,0 +1,21 @@
+$sidePaddingDesktop: 40px;
+$sidePaddingTablet: 20px;
+$sidePaddingMobile: 10px;
+
+// $size: desktop, tablet, mobile
+
+@mixin useBlockPadding($size, $top: 0, $bottom: 0) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+
+  @if $size == desktop {
+    padding-left: $sidePaddingDesktop;
+    padding-right: $sidePaddingDesktop;
+  } @else if $size == tablet {
+    padding-left: $sidePaddingTablet;
+    padding-right: $sidePaddingTablet;
+  } @else if $size == mobile {
+    padding-left: $sidePaddingMobile;
+    padding-right: $sidePaddingMobile;
+  }
+}
