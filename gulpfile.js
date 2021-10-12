@@ -38,7 +38,7 @@ var paths = {
 		input: 'src/copy/**/*',
 		output: 'dist/'
 	},
-	reload: './dist/'
+	reload: './'
 };
 
 

@@ -72,7 +72,7 @@ p {
   left: 0;
   width: 15px;
   height: 100%;
-  background-color: #356A3C;
+  background-color: #261D03;
 }
 
 /* line 67, src/sass/components/_common.scss */
@@ -84,7 +84,7 @@ p {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #356A3C;
+  background-color: #261D03;
 }
 
 /* line 78, src/sass/components/_common.scss */
@@ -283,23 +283,24 @@ body {
 
 /* line 18, src/sass/main.scss */
 .avatar {
+  display: block;
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-/* line 24, src/sass/main.scss */
+/* line 25, src/sass/main.scss */
 .resume__main {
   grid-area: main;
 }
 
-/* line 28, src/sass/main.scss */
+/* line 29, src/sass/main.scss */
 .resume__footer {
   grid-area: footer;
 }
 
-/* line 32, src/sass/main.scss */
+/* line 33, src/sass/main.scss */
 .footer-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -311,14 +312,14 @@ body {
   height: 100%;
 }
 
-/* line 38, src/sass/main.scss */
+/* line 39, src/sass/main.scss */
 .footer-content > .block:last-child {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-/* line 42, src/sass/main.scss */
+/* line 43, src/sass/main.scss */
 .item__media {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,7 +327,7 @@ body {
   margin-top: 5px;
 }
 
-/* line 47, src/sass/main.scss */
+/* line 48, src/sass/main.scss */
 .icon-link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -347,16 +348,16 @@ body {
   cursor: pointer;
 }
 
-/* line 62, src/sass/main.scss */
+/* line 63, src/sass/main.scss */
 .icon-link:first-child {
   margin-left: 0;
 }
 
-/* line 66, src/sass/main.scss */
+/* line 67, src/sass/main.scss */
 .icon-link:hover {
-  background: #356a3c;
-  background: -webkit-gradient(linear, left top, right top, from(#356a3c), to(#4d1e2b));
-  background: linear-gradient(90deg, #356a3c 0%, #4d1e2b 100%);
+  background: #6f301f;
+  background: -webkit-gradient(linear, left top, right top, from(#6f301f), color-stop(40%, #4a2611), to(#261d03));
+  background: linear-gradient(90deg, #6f301f 0%, #4a2611 40%, #261d03 100%);
   background-size: 400% 400%;
   -webkit-animation: gradient 2s ease infinite;
           animation: gradient 2s ease infinite;
@@ -386,12 +387,12 @@ body {
   }
 }
 
-/* line 85, src/sass/main.scss */
+/* line 86, src/sass/main.scss */
 .icon-link i {
   font-size: 20px;
 }
 
-/* line 89, src/sass/main.scss */
+/* line 90, src/sass/main.scss */
 .heading {
   padding-top: 20px;
   padding-bottom: 0;
@@ -399,12 +400,12 @@ body {
   padding-right: 40px;
 }
 
-/* line 93, src/sass/main.scss */
+/* line 94, src/sass/main.scss */
 .heading > .avatar {
   display: none;
 }
 
-/* line 97, src/sass/main.scss */
+/* line 98, src/sass/main.scss */
 .skills {
   margin: 0 -20px;
   display: -webkit-box;
@@ -420,12 +421,12 @@ body {
           align-items: center;
 }
 
-/* line 105, src/sass/main.scss */
+/* line 106, src/sass/main.scss */
 .skills > .item {
   padding: 0 20px;
 }
 
-/* line 110, src/sass/main.scss */
+/* line 111, src/sass/main.scss */
 .dot {
   margin-left: 5px;
   height: 15px;
@@ -433,22 +434,22 @@ body {
   border-radius: 50%;
 }
 
-/* line 117, src/sass/main.scss */
+/* line 118, src/sass/main.scss */
 .dot:first-child {
   margin-left: 0;
 }
 
-/* line 121, src/sass/main.scss */
+/* line 122, src/sass/main.scss */
 .dot--light {
-  background-color: #356a3c;
+  background-color: #261D03;
 }
 
-/* line 126, src/sass/main.scss */
+/* line 127, src/sass/main.scss */
 .dot--gray {
   background-color: #e2e2e2;
 }
 
-/* line 130, src/sass/main.scss */
+/* line 131, src/sass/main.scss */
 .portfolio {
   padding: 10px 0;
   display: -webkit-box;
@@ -458,12 +459,12 @@ body {
       flex-wrap: wrap;
 }
 
-/* line 136, src/sass/main.scss */
+/* line 137, src/sass/main.scss */
 .portfolio__title:not(:first-child) {
   margin-top: 20px;
 }
 
-/* line 141, src/sass/main.scss */
+/* line 142, src/sass/main.scss */
 .portfolio__link {
   position: relative;
   margin: 15px 15px 0 0;
@@ -473,7 +474,7 @@ body {
   text-decoration: none;
 }
 
-/* line 151, src/sass/main.scss */
+/* line 152, src/sass/main.scss */
 .portfolio__link:hover {
   -webkit-box-shadow: 0 0 28px 14px rgba(0, 0, 0, 0.25), 0 0 10px 10px rgba(0, 0, 0, 0.22);
           box-shadow: 0 0 28px 14px rgba(0, 0, 0, 0.25), 0 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -481,20 +482,20 @@ body {
   transition: .1s linear;
 }
 
-/* line 156, src/sass/main.scss */
+/* line 157, src/sass/main.scss */
 .portfolio__link:hover .portfolio__link-name {
   opacity: 0;
   -webkit-transition: .1s linear;
   transition: .1s linear;
 }
 
-/* line 161, src/sass/main.scss */
+/* line 162, src/sass/main.scss */
 .portfolio__link:hover .portfolio__link-img {
   -webkit-filter: none;
           filter: none;
 }
 
-/* line 165, src/sass/main.scss */
+/* line 166, src/sass/main.scss */
 .portfolio__link-img {
   position: absolute;
   width: 100%;
@@ -505,7 +506,7 @@ body {
           filter: blur(1px);
 }
 
-/* line 175, src/sass/main.scss */
+/* line 176, src/sass/main.scss */
 .portfolio__link-name {
   z-index: 2;
   position: absolute;
@@ -531,18 +532,18 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* line 200, src/sass/main.scss */
+  /* line 201, src/sass/main.scss */
   .resume {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 30% auto;
     grid-template-areas: "main main main main" "main main main main" "footer footer footer footer";
   }
-  /* line 211, src/sass/main.scss */
+  /* line 212, src/sass/main.scss */
   .avatar {
     display: none;
   }
-  /* line 215, src/sass/main.scss */
+  /* line 216, src/sass/main.scss */
   .contacts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -555,7 +556,7 @@ body {
         align-content: center;
     text-align: center;
   }
-  /* line 222, src/sass/main.scss */
+  /* line 223, src/sass/main.scss */
   .skills {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -568,14 +569,14 @@ body {
             justify-content: center;
     text-align: center;
   }
-  /* line 230, src/sass/main.scss */
+  /* line 231, src/sass/main.scss */
   .item__media {
     margin-top: 10px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  /* line 236, src/sass/main.scss */
+  /* line 237, src/sass/main.scss */
   .portfolio {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -584,7 +585,7 @@ body {
 }
 
 @media (max-width: 768px) and (min-width: 481px) {
-  /* line 244, src/sass/main.scss */
+  /* line 245, src/sass/main.scss */
   .heading {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -596,7 +597,7 @@ body {
     padding-right: 20px;
     text-align: center;
   }
-  /* line 252, src/sass/main.scss */
+  /* line 253, src/sass/main.scss */
   .heading > .avatar {
     display: block;
     margin: 0 auto;
@@ -608,14 +609,14 @@ body {
     -o-object-position: center center;
        object-position: center center;
   }
-  /* line 263, src/sass/main.scss */
+  /* line 264, src/sass/main.scss */
   .contacts {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 267, src/sass/main.scss */
+  /* line 268, src/sass/main.scss */
   .skills {
     padding-top: 0;
     padding-bottom: 0;
@@ -625,28 +626,28 @@ body {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  /* line 272, src/sass/main.scss */
+  /* line 273, src/sass/main.scss */
   .icon-link {
     width: 45px;
     height: 45px;
   }
-  /* line 277, src/sass/main.scss */
+  /* line 278, src/sass/main.scss */
   .icon-link i {
     font-size: 18px;
   }
-  /* line 281, src/sass/main.scss */
+  /* line 282, src/sass/main.scss */
   .portfolio {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
   }
-  /* line 285, src/sass/main.scss */
+  /* line 286, src/sass/main.scss */
   .portfolio__link {
     width: 100px;
     height: 100px;
   }
-  /* line 290, src/sass/main.scss */
+  /* line 291, src/sass/main.scss */
   .portfolio__link-name {
     font-size: 14px;
     letter-spacing: 1px;
@@ -654,7 +655,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  /* line 298, src/sass/main.scss */
+  /* line 299, src/sass/main.scss */
   .heading {
     padding-top: 10px;
     padding-bottom: 0;
@@ -666,7 +667,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
   }
-  /* line 306, src/sass/main.scss */
+  /* line 307, src/sass/main.scss */
   .heading > .avatar {
     display: block;
     margin: 0 auto;
@@ -678,42 +679,42 @@ body {
     -o-object-position: center center;
        object-position: center center;
   }
-  /* line 317, src/sass/main.scss */
+  /* line 318, src/sass/main.scss */
   .contacts {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* line 321, src/sass/main.scss */
+  /* line 322, src/sass/main.scss */
   .skills {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* line 326, src/sass/main.scss */
+  /* line 327, src/sass/main.scss */
   .icon-link {
     width: 35px;
     height: 35px;
   }
-  /* line 331, src/sass/main.scss */
+  /* line 332, src/sass/main.scss */
   .icon-link i {
     font-size: 14px;
   }
-  /* line 335, src/sass/main.scss */
+  /* line 336, src/sass/main.scss */
   .portfolio {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
   }
-  /* line 339, src/sass/main.scss */
+  /* line 340, src/sass/main.scss */
   .portfolio__link {
     width: 75px;
     height: 75px;
   }
-  /* line 344, src/sass/main.scss */
+  /* line 345, src/sass/main.scss */
   .portfolio__link-name {
     font-size: 10px;
     letter-spacing: 1px;
